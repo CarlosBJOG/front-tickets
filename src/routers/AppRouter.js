@@ -7,7 +7,7 @@ import { PublicRoutes } from "./PublicRoute"
 
 export const AppRouter = () => {
 
-  const [isLoggedIn] = useState(true);
+  const [isLoggedIn] = useState(false);
     return (
       <>
         <BrowserRouter>
